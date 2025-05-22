@@ -28,7 +28,7 @@ This repository includes examples from three popular websites:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/api-reverse-engineering-playbook.git
+git clone https://github.com/jcrevoisier/api-reverse-engineering-playbook.git
 cd api-reverse-engineering-playbook
 
 # Create a virtual environment
