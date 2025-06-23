@@ -14,9 +14,6 @@ logger = logging.getLogger(__name__)
 class YelpBusinessSearchAPI:
     """
     A class to interact with Yelp's hidden business search API.
-    
-    This implementation is based on reverse engineering the API used by
-    Yelp's web interface when performing business searches.
     """
     
     BASE_URL = "https://www.yelp.com"

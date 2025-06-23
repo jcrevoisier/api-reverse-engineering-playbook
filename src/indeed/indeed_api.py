@@ -14,9 +14,6 @@ logger = logging.getLogger(__name__)
 class IndeedJobSearchAPI:
     """
     A class to interact with Indeed's hidden job search API.
-    
-    This implementation is based on reverse engineering the API used by
-    Indeed's web interface when performing job searches.
     """
     
     BASE_URL = "https://www.indeed.com"

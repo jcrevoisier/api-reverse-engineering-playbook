@@ -124,9 +124,6 @@ def yelp_search(args):
         sys.exit(1)
 
 def main():
-    """
-    Main entry point for the API Reverse Engineering Playbook.
-    """
     parser = argparse.ArgumentParser(description="API Reverse Engineering Playbook")
     subparsers = parser.add_subparsers(dest="command", help="API to use")
     

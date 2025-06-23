@@ -12,9 +12,6 @@ logger = logging.getLogger(__name__)
 class TwitterSearchAPI:
     """
     A class to interact with Twitter's hidden search API.
-    
-    This implementation is based on reverse engineering the API used by
-    Twitter's web interface when performing searches.
     """
     
     BASE_URL = "https://twitter.com/i/api/graphql"
